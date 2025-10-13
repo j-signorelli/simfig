@@ -1,2 +1,2 @@
-# sim-config
+# SimFig
 Simulation configuration file library.
