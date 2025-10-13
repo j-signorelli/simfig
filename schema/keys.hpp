@@ -1,6 +1,6 @@
 #include "options.hpp"
 
-namespace simconfig
+namespace simfig
 {
 
 // Define alias for an OptionArray of compile-time strings
@@ -27,4 +27,4 @@ struct is_key_vector<KeyVector<E>> : std::true_type {};
 template<typename T>
 inline constexpr bool is_key_vector_v = is_key_vector<T>::value;
 
-} // namespace config
+} // namespace simfig

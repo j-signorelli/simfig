@@ -1,7 +1,7 @@
 #include "options.hpp"
 
 
-namespace simconfig
+namespace simfig
 {
 
 // --------------------------------------------------------------------------------
@@ -123,4 +123,4 @@ consteval std::array<int, EndpointData<V>::FieldNames.size()> GetFlagFieldMap()
 
 
 
-} // namespace simconfig
+} // namespace simfig

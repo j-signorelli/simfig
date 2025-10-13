@@ -1,7 +1,7 @@
 #include <cstdint>
 #include <type_traits>
 
-namespace simconfig
+namespace simfig
 {
 
 // Define concept for an OptionEnum: An enum of underlying type std::uint8_t with a SIZE enumerator
@@ -37,4 +37,4 @@ struct OptionArray : public std::array<T, Enum::Size>
    { return std::array<T, Enum::Size>::operator[](static_cast<std::uint8_t>(e)); };
 };
 
-} // namespace simconfig
+} // namespace simfig
