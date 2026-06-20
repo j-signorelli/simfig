@@ -7,8 +7,8 @@ namespace simfig
 // Define concept for an OptionEnum: An enum of underlying type std::uint8_t with a SIZE enumerator
 template <typename Enum>
 concept OptionEnum = std::is_enum_v<Enum> && 
-std::is_same_v<std::underlying_type_t<Enum>, std::uint8_t> &&
-requires { Enum::SIZE; };
+                     std::is_same_v<std::underlying_type_t<Enum>, std::uint8_t> &&
+                     requires { Enum::SIZE; };
 
 
 template<OptionEnum Enum>

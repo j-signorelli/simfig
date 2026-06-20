@@ -1,6 +1,7 @@
 #include "options.hpp"
 
-
+#include <utility>
+#include <string_view>
 namespace simfig
 {
 
